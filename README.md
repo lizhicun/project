@@ -272,7 +272,7 @@
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| tag | [Tag](#tusimple.octodrill.Tag) |  | Response of CreateTag. #### Note: * If the tag.id is not empty, The value of the tag.ID will be ignored. * If the tag.name already exists, codes.AlreadyExists will be returned. * If the tag.parent_id not exists, codes.InvalidArgument will be returned. * If the tag.parent_id is deleted, codes.InvalidArgument will be returned. |
+| tag | [Tag](#tusimple.octodrill.Tag) |  | #### Note: * If the tag.id is not empty, The value of the tag.ID will be ignored. * If the tag.name already exists, codes.AlreadyExists will be returned. * If the tag.parent_id not exists, codes.InvalidArgument will be returned. * If the tag.parent_id is deleted, codes.InvalidArgument will be returned. |
 
 
 
