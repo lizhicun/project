@@ -4,118 +4,6 @@
 ## Table of Contents
 
 - [proto/api.proto](#proto/api.proto)
-    - [CreateEntityTemplateRequest](#tusimple.octodrill.CreateEntityTemplateRequest)
-    - [CreateEntityTemplateResponse](#tusimple.octodrill.CreateEntityTemplateResponse)
-    - [CreateMetricTemplateRequest](#tusimple.octodrill.CreateMetricTemplateRequest)
-    - [CreateMetricTemplateResponse](#tusimple.octodrill.CreateMetricTemplateResponse)
-    - [CreateScenarioRequest](#tusimple.octodrill.CreateScenarioRequest)
-    - [CreateScenarioResponse](#tusimple.octodrill.CreateScenarioResponse)
-    - [CreateScenarioVersionRequest](#tusimple.octodrill.CreateScenarioVersionRequest)
-    - [CreateScenarioVersionResponse](#tusimple.octodrill.CreateScenarioVersionResponse)
-    - [CreateTagRequest](#tusimple.octodrill.CreateTagRequest)
-    - [CreateTagResponse](#tusimple.octodrill.CreateTagResponse)
-    - [CreateTaskGroupRequest](#tusimple.octodrill.CreateTaskGroupRequest)
-    - [CreateTaskGroupResponse](#tusimple.octodrill.CreateTaskGroupResponse)
-    - [CreateTaskRequest](#tusimple.octodrill.CreateTaskRequest)
-    - [CreateTaskResponse](#tusimple.octodrill.CreateTaskResponse)
-    - [CreateUserRequest](#tusimple.octodrill.CreateUserRequest)
-    - [CreateUserResponse](#tusimple.octodrill.CreateUserResponse)
-    - [DeleteEntityTemplateRequest](#tusimple.octodrill.DeleteEntityTemplateRequest)
-    - [DeleteEntityTemplateResponse](#tusimple.octodrill.DeleteEntityTemplateResponse)
-    - [DeleteMetricTemplateRequest](#tusimple.octodrill.DeleteMetricTemplateRequest)
-    - [DeleteMetricTemplateResponse](#tusimple.octodrill.DeleteMetricTemplateResponse)
-    - [DeleteTagRequest](#tusimple.octodrill.DeleteTagRequest)
-    - [DeleteTagResponse](#tusimple.octodrill.DeleteTagResponse)
-    - [DeleteTaskGroupRequest](#tusimple.octodrill.DeleteTaskGroupRequest)
-    - [DeleteTaskGroupResponse](#tusimple.octodrill.DeleteTaskGroupResponse)
-    - [DeleteTaskRequest](#tusimple.octodrill.DeleteTaskRequest)
-    - [DeleteTaskResponse](#tusimple.octodrill.DeleteTaskResponse)
-    - [DeleteUserRequest](#tusimple.octodrill.DeleteUserRequest)
-    - [DeleteUserResponse](#tusimple.octodrill.DeleteUserResponse)
-    - [Entity](#tusimple.octodrill.Entity)
-    - [EntityTemplate](#tusimple.octodrill.EntityTemplate)
-    - [FindEntityTemplatesRequest](#tusimple.octodrill.FindEntityTemplatesRequest)
-    - [FindEntityTemplatesResponse](#tusimple.octodrill.FindEntityTemplatesResponse)
-    - [FindFlattenTagTreeRequest](#tusimple.octodrill.FindFlattenTagTreeRequest)
-    - [FindFlattenTagTreeResponse](#tusimple.octodrill.FindFlattenTagTreeResponse)
-    - [FindMetricTemplatesRequest](#tusimple.octodrill.FindMetricTemplatesRequest)
-    - [FindMetricTemplatesResponse](#tusimple.octodrill.FindMetricTemplatesResponse)
-    - [FindScenarioResultRequest](#tusimple.octodrill.FindScenarioResultRequest)
-    - [FindScenarioResultResponse](#tusimple.octodrill.FindScenarioResultResponse)
-    - [FindScenarioVersionFieldsRequest](#tusimple.octodrill.FindScenarioVersionFieldsRequest)
-    - [FindScenarioVersionFieldsResponse](#tusimple.octodrill.FindScenarioVersionFieldsResponse)
-    - [FindScenarioVersionsRequest](#tusimple.octodrill.FindScenarioVersionsRequest)
-    - [FindScenarioVersionsResponse](#tusimple.octodrill.FindScenarioVersionsResponse)
-    - [FindScenariosRequest](#tusimple.octodrill.FindScenariosRequest)
-    - [FindScenariosResponse](#tusimple.octodrill.FindScenariosResponse)
-    - [FindStageRequest](#tusimple.octodrill.FindStageRequest)
-    - [FindStageResponse](#tusimple.octodrill.FindStageResponse)
-    - [FindTagTreeRequest](#tusimple.octodrill.FindTagTreeRequest)
-    - [FindTagTreeResponse](#tusimple.octodrill.FindTagTreeResponse)
-    - [FindTagsRequest](#tusimple.octodrill.FindTagsRequest)
-    - [FindTagsResponse](#tusimple.octodrill.FindTagsResponse)
-    - [FindTaskGroupRequest](#tusimple.octodrill.FindTaskGroupRequest)
-    - [FindTaskGroupResponse](#tusimple.octodrill.FindTaskGroupResponse)
-    - [FindTaskRequest](#tusimple.octodrill.FindTaskRequest)
-    - [FindTaskResponse](#tusimple.octodrill.FindTaskResponse)
-    - [FindTicketsRequest](#tusimple.octodrill.FindTicketsRequest)
-    - [FindTicketsResponse](#tusimple.octodrill.FindTicketsResponse)
-    - [FindUsersRequest](#tusimple.octodrill.FindUsersRequest)
-    - [FindUsersResponse](#tusimple.octodrill.FindUsersResponse)
-    - [FirstScenarioRequest](#tusimple.octodrill.FirstScenarioRequest)
-    - [FirstScenarioResponse](#tusimple.octodrill.FirstScenarioResponse)
-    - [FirstScenarioVersionRequest](#tusimple.octodrill.FirstScenarioVersionRequest)
-    - [FirstScenarioVersionResponse](#tusimple.octodrill.FirstScenarioVersionResponse)
-    - [FirstTaskRequest](#tusimple.octodrill.FirstTaskRequest)
-    - [FirstTaskResponse](#tusimple.octodrill.FirstTaskResponse)
-    - [FirstUserRequest](#tusimple.octodrill.FirstUserRequest)
-    - [FirstUserResponse](#tusimple.octodrill.FirstUserResponse)
-    - [GetInstanceCaseRequest](#tusimple.octodrill.GetInstanceCaseRequest)
-    - [GetInstanceCaseResponse](#tusimple.octodrill.GetInstanceCaseResponse)
-    - [GetScenarioVersionTagIntersectionRequest](#tusimple.octodrill.GetScenarioVersionTagIntersectionRequest)
-    - [GetScenarioVersionTagIntersectionResponse](#tusimple.octodrill.GetScenarioVersionTagIntersectionResponse)
-    - [GetScenarioVersionTicketIntersectionRequest](#tusimple.octodrill.GetScenarioVersionTicketIntersectionRequest)
-    - [GetScenarioVersionTicketIntersectionResponse](#tusimple.octodrill.GetScenarioVersionTicketIntersectionResponse)
-    - [Metric](#tusimple.octodrill.Metric)
-    - [MetricLevelResult](#tusimple.octodrill.MetricLevelResult)
-    - [MetricResult](#tusimple.octodrill.MetricResult)
-    - [MetricTemplate](#tusimple.octodrill.MetricTemplate)
-    - [MoveScenarioVersionToRecycleBinRequest](#tusimple.octodrill.MoveScenarioVersionToRecycleBinRequest)
-    - [MoveScenarioVersionToRecycleBinResponse](#tusimple.octodrill.MoveScenarioVersionToRecycleBinResponse)
-    - [RecoverScenarioVersionRequest](#tusimple.octodrill.RecoverScenarioVersionRequest)
-    - [RecoverScenarioVersionResponse](#tusimple.octodrill.RecoverScenarioVersionResponse)
-    - [ReportCaseResultRequest](#tusimple.octodrill.ReportCaseResultRequest)
-    - [ReportCaseResultResponse](#tusimple.octodrill.ReportCaseResultResponse)
-    - [Scenario](#tusimple.octodrill.Scenario)
-    - [ScenarioCase](#tusimple.octodrill.ScenarioCase)
-    - [ScenarioResult](#tusimple.octodrill.ScenarioResult)
-    - [ScenarioVersion](#tusimple.octodrill.ScenarioVersion)
-    - [StartInstanceForScenarioTemplateRequest](#tusimple.octodrill.StartInstanceForScenarioTemplateRequest)
-    - [StartInstanceForScenarioTemplateResponse](#tusimple.octodrill.StartInstanceForScenarioTemplateResponse)
-    - [StopInstanceForScenarioTemplateRequest](#tusimple.octodrill.StopInstanceForScenarioTemplateRequest)
-    - [StopInstanceForScenarioTemplateResponse](#tusimple.octodrill.StopInstanceForScenarioTemplateResponse)
-    - [Tag](#tusimple.octodrill.Tag)
-    - [TagList](#tusimple.octodrill.TagList)
-    - [TagTree](#tusimple.octodrill.TagTree)
-    - [Task](#tusimple.octodrill.Task)
-    - [TaskGroup](#tusimple.octodrill.TaskGroup)
-    - [TimePair](#tusimple.octodrill.TimePair)
-    - [UpdateEntityTemplateRequest](#tusimple.octodrill.UpdateEntityTemplateRequest)
-    - [UpdateEntityTemplateResponse](#tusimple.octodrill.UpdateEntityTemplateResponse)
-    - [UpdateMetricTemplateRequest](#tusimple.octodrill.UpdateMetricTemplateRequest)
-    - [UpdateMetricTemplateResponse](#tusimple.octodrill.UpdateMetricTemplateResponse)
-    - [UpdateScenarioRequest](#tusimple.octodrill.UpdateScenarioRequest)
-    - [UpdateScenarioResponse](#tusimple.octodrill.UpdateScenarioResponse)
-    - [UpdateTagRequest](#tusimple.octodrill.UpdateTagRequest)
-    - [UpdateTagResponse](#tusimple.octodrill.UpdateTagResponse)
-    - [UpdateTaskGroupRequest](#tusimple.octodrill.UpdateTaskGroupRequest)
-    - [UpdateTaskGroupResponse](#tusimple.octodrill.UpdateTaskGroupResponse)
-    - [UpdateTaskRequest](#tusimple.octodrill.UpdateTaskRequest)
-    - [UpdateTaskResponse](#tusimple.octodrill.UpdateTaskResponse)
-    - [UpdateUserRequest](#tusimple.octodrill.UpdateUserRequest)
-    - [UpdateUserResponse](#tusimple.octodrill.UpdateUserResponse)
-    - [User](#tusimple.octodrill.User)
-  
     - [Simcraft](#tusimple.octodrill.Simcraft)
   
 - [Scalar Value Types](#scalar-value-types)
@@ -126,6 +14,225 @@
 <p align="right"><a href="#top">Top</a></p>
 
 ## proto/api.proto
+
+
+
+<a name="tusimple.octodrill.Simcraft"></a>
+
+### Simcraft
+
+
+#### CreateScenarioVersion  
+  
+- [CreateScenarioVersionRequest](#tusimple.octodrill.CreateScenarioVersionRequest) 
+- [CreateScenarioVersionResponse](#tusimple.octodrill.CreateScenarioVersionResponse) 
+#### FirstScenarioVersion  
+ Used to query single ScenarioVersion. 
+- [FirstScenarioVersionRequest](#tusimple.octodrill.FirstScenarioVersionRequest) 
+- [FirstScenarioVersionResponse](#tusimple.octodrill.FirstScenarioVersionResponse) 
+#### FindScenarioVersions  
+ Used to query ScenarioVersion, the relationship between different query conditions is "and". Unless otherwise specified, it is an exact search. If there is no qualified ScenarioVersion, return empty. 
+- [FindScenarioVersionsRequest](#tusimple.octodrill.FindScenarioVersionsRequest) 
+- [FindScenarioVersionsResponse](#tusimple.octodrill.FindScenarioVersionsResponse) 
+#### UpdateScenarioVersions  
+  
+- [UpdateScenarioVersionsRequest](#tusimple.octodrill.UpdateScenarioVersionsRequest) 
+- [UpdateScenarioVersionsResponse](#tusimple.octodrill.UpdateScenarioVersionsResponse) 
+#### FindScenarioVersionFields  
+ Fuzzy search for scenario_id, scenario_version_id, description in ScenarioVersions 
+- [FindScenarioVersionFieldsRequest](#tusimple.octodrill.FindScenarioVersionFieldsRequest) 
+- [FindScenarioVersionFieldsResponse](#tusimple.octodrill.FindScenarioVersionFieldsResponse) 
+#### GetScenarioVersionTagIntersection  
+ Get the intersection of tags in ScenarioVersions. 
+- [GetScenarioVersionTagIntersectionRequest](#tusimple.octodrill.GetScenarioVersionTagIntersectionRequest) 
+- [GetScenarioVersionTagIntersectionResponse](#tusimple.octodrill.GetScenarioVersionTagIntersectionResponse) 
+#### GetScenarioVersionTicketIntersection  
+  
+- [GetScenarioVersionTicketIntersectionRequest](#tusimple.octodrill.GetScenarioVersionTicketIntersectionRequest) 
+- [GetScenarioVersionTicketIntersectionResponse](#tusimple.octodrill.GetScenarioVersionTicketIntersectionResponse) 
+#### CreateScenario  
+  
+- [CreateScenarioRequest](#tusimple.octodrill.CreateScenarioRequest) 
+- [CreateScenarioResponse](#tusimple.octodrill.CreateScenarioResponse) 
+#### UpdateScenario  
+  
+- [UpdateScenarioRequest](#tusimple.octodrill.UpdateScenarioRequest) 
+- [UpdateScenarioResponse](#tusimple.octodrill.UpdateScenarioResponse) 
+#### FirstScenario  
+  
+- [FirstScenarioRequest](#tusimple.octodrill.FirstScenarioRequest) 
+- [FirstScenarioResponse](#tusimple.octodrill.FirstScenarioResponse) 
+#### MoveScenarioToRecycleBin  
+  
+- [MoveScenarioToRecycleBinRequest](#tusimple.octodrill.MoveScenarioToRecycleBinRequest) 
+- [MoveScenarioToRecycleBinResponse](#tusimple.octodrill.MoveScenarioToRecycleBinResponse) 
+#### RecoverScenario  
+  
+- [RecoverScenarioRequest](#tusimple.octodrill.RecoverScenarioRequest) 
+- [RecoverScenarioResponse](#tusimple.octodrill.RecoverScenarioResponse) 
+#### FindScenarioResult  
+ Used to query ScenarioResult, the relationship between different query conditions is "and". Unless otherwise specified, it is an exact search. 
+- [FindScenarioResultRequest](#tusimple.octodrill.FindScenarioResultRequest) 
+- [FindScenarioResultResponse](#tusimple.octodrill.FindScenarioResultResponse) 
+#### CreateMetricTemplate  
+  
+- [CreateMetricTemplateRequest](#tusimple.octodrill.CreateMetricTemplateRequest) 
+- [CreateMetricTemplateResponse](#tusimple.octodrill.CreateMetricTemplateResponse) 
+#### UpdateMetricTemplate  
+  
+- [UpdateMetricTemplateRequest](#tusimple.octodrill.UpdateMetricTemplateRequest) 
+- [UpdateMetricTemplateResponse](#tusimple.octodrill.UpdateMetricTemplateResponse) 
+#### DeleteMetricTemplate  
+  
+- [DeleteMetricTemplateRequest](#tusimple.octodrill.DeleteMetricTemplateRequest) 
+- [DeleteMetricTemplateResponse](#tusimple.octodrill.DeleteMetricTemplateResponse) 
+#### FindMetricTemplates  
+  
+- [FindMetricTemplatesRequest](#tusimple.octodrill.FindMetricTemplatesRequest) 
+- [FindMetricTemplatesResponse](#tusimple.octodrill.FindMetricTemplatesResponse) 
+#### CreateEntityTemplate  
+  
+- [CreateEntityTemplateRequest](#tusimple.octodrill.CreateEntityTemplateRequest) 
+- [CreateEntityTemplateResponse](#tusimple.octodrill.CreateEntityTemplateResponse) 
+#### UpdateEntityTemplate  
+  
+- [UpdateEntityTemplateRequest](#tusimple.octodrill.UpdateEntityTemplateRequest) 
+- [UpdateEntityTemplateResponse](#tusimple.octodrill.UpdateEntityTemplateResponse) 
+#### DeleteEntityTemplate  
+  
+- [DeleteEntityTemplateRequest](#tusimple.octodrill.DeleteEntityTemplateRequest) 
+- [DeleteEntityTemplateResponse](#tusimple.octodrill.DeleteEntityTemplateResponse) 
+#### FindEntityTemplates  
+  
+- [FindEntityTemplatesRequest](#tusimple.octodrill.FindEntityTemplatesRequest) 
+- [FindEntityTemplatesResponse](#tusimple.octodrill.FindEntityTemplatesResponse) 
+#### CreateTag  
+  
+- [CreateTagRequest](#tusimple.octodrill.CreateTagRequest) 
+- [CreateTagResponse](#tusimple.octodrill.CreateTagResponse) 
+#### UpdateTag  
+  
+- [UpdateTagRequest](#tusimple.octodrill.UpdateTagRequest) 
+- [UpdateTagResponse](#tusimple.octodrill.UpdateTagResponse) 
+#### FindTags  
+  
+- [FindTagsRequest](#tusimple.octodrill.FindTagsRequest) 
+- [FindTagsResponse](#tusimple.octodrill.FindTagsResponse) 
+#### FindTagTree  
+  
+- [FindTagTreeRequest](#tusimple.octodrill.FindTagTreeRequest) 
+- [FindTagTreeResponse](#tusimple.octodrill.FindTagTreeResponse) 
+#### FindFlattenTagTree  
+  
+- [FindFlattenTagTreeRequest](#tusimple.octodrill.FindFlattenTagTreeRequest) 
+- [FindFlattenTagTreeResponse](#tusimple.octodrill.FindFlattenTagTreeResponse) 
+#### DeleteTagTree  
+  
+- [DeleteTagTreeRequest](#tusimple.octodrill.DeleteTagTreeRequest) 
+- [DeleteTagTreeResponse](#tusimple.octodrill.DeleteTagTreeResponse) 
+#### CreateTaskGroup  
+  
+- [CreateTaskGroupRequest](#tusimple.octodrill.CreateTaskGroupRequest) 
+- [CreateTaskGroupResponse](#tusimple.octodrill.CreateTaskGroupResponse) 
+#### UpdateTaskGroup  
+  
+- [UpdateTaskGroupRequest](#tusimple.octodrill.UpdateTaskGroupRequest) 
+- [UpdateTaskGroupResponse](#tusimple.octodrill.UpdateTaskGroupResponse) 
+#### FirstTaskGroup  
+ Used to query single TaskGroup by task group ID. If there is no qualified TaskGroup, return the error NotFound. 
+- [FirstTaskGroupRequest](#tusimple.octodrill.FirstTaskGroupRequest) 
+- [FirstTaskGroupResponse](#tusimple.octodrill.FirstTaskGroupResponse) 
+#### FindTaskGroup  
+ Used to query TaskGroup, the relationship between different query conditions is "and". If there is no qualified TaskGroup, return empty. Unless otherwise specified, it is an exact search. 
+- [FindTaskGroupRequest](#tusimple.octodrill.FindTaskGroupRequest) 
+- [FindTaskGroupResponse](#tusimple.octodrill.FindTaskGroupResponse) 
+#### GetTaskGroupsUsedByTaskGroupListPage  
+ It is only provided to the Task Group List part of the frontend of octodrill-job. It returns an ordered task group list. The default order is: all Favorite Task Groups are first, and other Task Groups are behind. Then sort them in reverse order of creation time. 
+- [GetTaskGroupsUsedByTaskGroupListPageRequest](#tusimple.octodrill.GetTaskGroupsUsedByTaskGroupListPageRequest) 
+- [GetTaskGroupsUsedByTaskGroupListPageResponse](#tusimple.octodrill.GetTaskGroupsUsedByTaskGroupListPageResponse) 
+#### AddFavoriteTaskGroup  
+ Used to add favorite TaskGroup. FavoriteTaskGroup and User have a many-to-many relationship. 
+- [AddFavoriteTaskGroupRequest](#tusimple.octodrill.AddFavoriteTaskGroupRequest) 
+- [AddFavoriteTaskGroupResponse](#tusimple.octodrill.AddFavoriteTaskGroupResponse) 
+#### CreateTask  
+  
+- [CreateTaskRequest](#tusimple.octodrill.CreateTaskRequest) 
+- [CreateTaskResponse](#tusimple.octodrill.CreateTaskResponse) 
+#### UpdateTask  
+  
+- [UpdateTaskRequest](#tusimple.octodrill.UpdateTaskRequest) 
+- [UpdateTaskResponse](#tusimple.octodrill.UpdateTaskResponse) 
+#### DeleteTask  
+  
+- [DeleteTaskRequest](#tusimple.octodrill.DeleteTaskRequest) 
+- [DeleteTaskResponse](#tusimple.octodrill.DeleteTaskResponse) 
+#### FirstTask  
+  
+- [FirstTaskRequest](#tusimple.octodrill.FirstTaskRequest) 
+- [FirstTaskResponse](#tusimple.octodrill.FirstTaskResponse) 
+#### FindTask  
+  
+- [FindTaskRequest](#tusimple.octodrill.FindTaskRequest) 
+- [FindTaskResponse](#tusimple.octodrill.FindTaskResponse) 
+#### GetInstanceCase  
+ rpc Create rpc Update rpc Delete 
+- [GetInstanceCaseRequest](#tusimple.octodrill.GetInstanceCaseRequest) 
+- [GetInstanceCaseResponse](#tusimple.octodrill.GetInstanceCaseResponse) 
+#### ReportCaseResult  
+  
+- [ReportCaseResultRequest](#tusimple.octodrill.ReportCaseResultRequest) 
+- [ReportCaseResultResponse](#tusimple.octodrill.ReportCaseResultResponse) 
+#### CreateUser  
+  
+- [CreateUserRequest](#tusimple.octodrill.CreateUserRequest) 
+- [CreateUserResponse](#tusimple.octodrill.CreateUserResponse) 
+#### UpdateUser  
+  
+- [UpdateUserRequest](#tusimple.octodrill.UpdateUserRequest) 
+- [UpdateUserResponse](#tusimple.octodrill.UpdateUserResponse) 
+#### FirstUser  
+  
+- [FirstUserRequest](#tusimple.octodrill.FirstUserRequest) 
+- [FirstUserResponse](#tusimple.octodrill.FirstUserResponse) 
+#### FindUsers  
+  
+- [FindUsersRequest](#tusimple.octodrill.FindUsersRequest) 
+- [FindUsersResponse](#tusimple.octodrill.FindUsersResponse) 
+#### DeleteUser  
+  
+- [DeleteUserRequest](#tusimple.octodrill.DeleteUserRequest) 
+- [DeleteUserResponse](#tusimple.octodrill.DeleteUserResponse) 
+#### FindTickets  
+  
+- [FindTicketsRequest](#tusimple.octodrill.FindTicketsRequest) 
+- [FindTicketsResponse](#tusimple.octodrill.FindTicketsResponse) 
+
+ <!-- end services -->
+
+
+<a name="tusimple.octodrill.AddFavoriteTaskGroupRequest"></a>
+
+### AddFavoriteTaskGroupRequest
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| task_group_id | [uint64](#uint64) |  |  |
+| user | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="tusimple.octodrill.AddFavoriteTaskGroupResponse"></a>
+
+### AddFavoriteTaskGroupResponse
+
+
+
+
 
 
 
@@ -222,7 +329,11 @@
 <a name="tusimple.octodrill.CreateScenarioVersionRequest"></a>
 
 ### CreateScenarioVersionRequest
-
+#### Note
+1. If request.template.scenario.id is empty, generate a new Scenario;
+2. If request.template.creator not exists, generate a new User;
+3. If request.template.ID is not empty, the backend will ignore the specified
+id and regenerate it. Similar to index and version;
 
 
 | Field | Type | Label | Description |
@@ -252,12 +363,20 @@
 <a name="tusimple.octodrill.CreateTagRequest"></a>
 
 ### CreateTagRequest
-
+#### Note:
+1. If request.tag.ID is not empty, the backend will ignore the specified
+id and regenerate it;
+2. If request.tag.name already exists, error InvalidArgument will be
+returned;
+3. If request.tag.parent_id not exists, error InvalidArgument will be
+returned;
+4. If request.tag.parent_id is deleted, error InvalidArgument will be
+returned;
 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| tag | [Tag](#tusimple.octodrill.Tag) |  | Note: If the tag.id is not empty, The value of the tag.ID will be ignored. |
+| tag | [Tag](#tusimple.octodrill.Tag) |  |  |
 
 
 
@@ -267,12 +386,7 @@
 <a name="tusimple.octodrill.CreateTagResponse"></a>
 
 ### CreateTagResponse
-#### Note:
-&gt; tag.id
-&gt; &gt; If the tag.id is not empty, The value of the tag.ID will be ignored.
-* If the tag.name already exists, codes.AlreadyExists will be returned.
-* If the tag.parent_id not exists, codes.InvalidArgument will be returned.
-* If the tag.parent_id is deleted, codes.InvalidArgument will be returned.
+
 
 
 | Field | Type | Label | Description |
@@ -287,7 +401,17 @@
 <a name="tusimple.octodrill.CreateTaskGroupRequest"></a>
 
 ### CreateTaskGroupRequest
-
+#### Note
+1. The ID, frequency, last_fail_rate, created_time, updated_time in the
+request.task_group will be ignored;
+2. If request.task_group.creator not exists, generate a new User;
+3. If request.task_group.image is empty, error InvalidArgument will be
+returned;
+4. At least one of req.task_group.scenarios and
+req.task_group.scenario_condition is not empty, otherwise it will return
+invalidArgument;
+5. If the scenario found by req.task_group.scenario_condition is empty, error
+InvalidArgument will be returned;
 
 
 | Field | Type | Label | Description |
@@ -307,7 +431,7 @@
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| task_group | [TaskGroup](#tusimple.octodrill.TaskGroup) |  |  |
+| id | [uint64](#uint64) |  |  |
 
 
 
@@ -337,7 +461,7 @@
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| task | [Task](#tusimple.octodrill.Task) |  |  |
+| id | [uint64](#uint64) |  |  |
 
 
 
@@ -424,49 +548,25 @@
 
 
 
-<a name="tusimple.octodrill.DeleteTagRequest"></a>
+<a name="tusimple.octodrill.DeleteTagTreeRequest"></a>
 
-### DeleteTagRequest
-
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| ID | [uint64](#uint64) |  |  |
-
-
-
-
-
-
-<a name="tusimple.octodrill.DeleteTagResponse"></a>
-
-### DeleteTagResponse
-
-
-
-
-
-
-
-<a name="tusimple.octodrill.DeleteTaskGroupRequest"></a>
-
-### DeleteTaskGroupRequest
-
+### DeleteTagTreeRequest
+#### Note
+1. If request.tag_id not exists, error InvalidArgument will be returned;
 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| ID | [uint64](#uint64) |  |  |
+| tag_id | [uint64](#uint64) |  |  |
 
 
 
 
 
 
-<a name="tusimple.octodrill.DeleteTaskGroupResponse"></a>
+<a name="tusimple.octodrill.DeleteTagTreeResponse"></a>
 
-### DeleteTaskGroupResponse
+### DeleteTagTreeResponse
 
 
 
@@ -518,6 +618,22 @@
 
 ### DeleteUserResponse
 
+
+
+
+
+
+
+<a name="tusimple.octodrill.DockerImage"></a>
+
+### DockerImage
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| type | [DockerImage.ImageType](#tusimple.octodrill.DockerImage.ImageType) |  |  |
+| list | [string](#string) | repeated |  |
 
 
 
@@ -592,7 +708,8 @@
 <a name="tusimple.octodrill.FindFlattenTagTreeRequest"></a>
 
 ### FindFlattenTagTreeRequest
-
+#### Note
+1. If request.tag_id not exists, error InvalidArgument will be returned;
 
 
 | Field | Type | Label | Description |
@@ -687,6 +804,7 @@
 | ----- | ---- | ----- | ----------- |
 | scenario_results | [ScenarioResult](#tusimple.octodrill.ScenarioResult) | repeated |  |
 | scenario_version_ids | [uint64](#uint64) | repeated |  |
+| total | [uint64](#uint64) |  |  |
 
 
 
@@ -696,7 +814,7 @@
 <a name="tusimple.octodrill.FindScenarioVersionFieldsRequest"></a>
 
 ### FindScenarioVersionFieldsRequest
-
+Find by regular expression *scenario_id*, *version*, *description*
 
 
 | Field | Type | Label | Description |
@@ -704,6 +822,7 @@
 | scenario_id | [string](#string) |  |  |
 | version | [string](#string) |  |  |
 | description | [string](#string) |  |  |
+| in_recycle_bin | [bool](#bool) |  |  |
 
 
 
@@ -730,7 +849,10 @@
 <a name="tusimple.octodrill.FindScenarioVersionsRequest"></a>
 
 ### FindScenarioVersionsRequest
-
+#### Note
+1. If the query parameters are incorrect, such as querying the scenario
+version with a tag id that does not exist, it will return empty instead of
+returning an error;
 
 
 | Field | Type | Label | Description |
@@ -739,15 +861,15 @@
 | scenario_id | [uint64](#uint64) |  | Find the version belonging to the scenario. |
 | description | [string](#string) |  | Find the version that contains it in the description. |
 | tags | [TagList](#tusimple.octodrill.TagList) | repeated | Find the version that meets the tag requirements. |
-| tickets | [string](#string) | repeated | Find the version that meets the ticket requirements. The relationship between tickets is &#34;or&#34;. |
+| tickets | [string](#string) | repeated | Find the version that meets the ticket requirements. The relationship between tickets is "or". |
 | creator | [string](#string) |  | Find the version that created by creator. |
 | created_time | [TimePair](#tusimple.octodrill.TimePair) |  | Find the version whose creation time is within a period of time. |
-| scenario_created_time | [TimePair](#tusimple.octodrill.TimePair) |  | Find the version whose scenario&#39;s creation time is within a period of time. |
+| scenario_created_time | [TimePair](#tusimple.octodrill.TimePair) |  | Find the version whose scenario's creation time is within a period of time. |
 | scenario_creator | [string](#string) |  | Find the version that scenario created by creator. |
 | limit | [uint64](#uint64) |  | Number limit of returns. |
 | offset | [uint64](#uint64) |  | Offset of returns. |
 | stage | [string](#string) |  | Find the version belonging to the stage. |
-| ignore_scenario_detail | [bool](#bool) |  | When it is true, only ScenarioVersion id will be returned. |
+| ignore_scenario_detail | [bool](#bool) |  | When it is true, only ScenarioVersion id and Scenario id will be returned. |
 | latest | [bool](#bool) |  | Find the latest version or all versions. When latest=false, all versions will be returned. |
 | fuzzy_tickets | [string](#string) | repeated | Use ticket fuzzy search version. |
 | desc | [bool](#bool) |  | When desc is true, the versions will be returned according to the version id in descending order. |
@@ -765,41 +887,8 @@
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| templates | [ScenarioVersion](#tusimple.octodrill.ScenarioVersion) | repeated | If ignore=false in the request, templates is not empty |
-| template_ids | [uint64](#uint64) | repeated | If ignore=true in the request, template_ids is not empty |
-
-
-
-
-
-
-<a name="tusimple.octodrill.FindScenariosRequest"></a>
-
-### FindScenariosRequest
-
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| scenario_version | [FindScenarioVersionsRequest](#tusimple.octodrill.FindScenarioVersionsRequest) |  |  |
-| scenario | [Scenario](#tusimple.octodrill.Scenario) |  |  |
-| offset | [uint64](#uint64) |  |  |
-| limit | [uint64](#uint64) |  |  |
-
-
-
-
-
-
-<a name="tusimple.octodrill.FindScenariosResponse"></a>
-
-### FindScenariosResponse
-
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| scenarios | [Scenario](#tusimple.octodrill.Scenario) | repeated |  |
+| templates | [ScenarioVersion](#tusimple.octodrill.ScenarioVersion) | repeated |  |
+| total | [uint64](#uint64) |  |  |
 
 
 
@@ -834,7 +923,8 @@
 <a name="tusimple.octodrill.FindTagTreeRequest"></a>
 
 ### FindTagTreeRequest
-
+#### Note
+1. If request.tag_id not exists, error InvalidArgument will be returned;
 
 
 | Field | Type | Label | Description |
@@ -864,7 +954,8 @@
 <a name="tusimple.octodrill.FindTagsRequest"></a>
 
 ### FindTagsRequest
-
+#### Note
+1. It will return empty array if no ScenarioVersion is found;
 
 
 | Field | Type | Label | Description |
@@ -902,14 +993,18 @@
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| ID | [uint64](#uint64) |  |  |
-| name | [string](#string) |  |  |
-| description | [string](#string) |  |  |
-| owner_id | [string](#string) |  |  |
-| create_time | [TimePair](#tusimple.octodrill.TimePair) |  |  |
-| last_run_time | [TimePair](#tusimple.octodrill.TimePair) |  |  |
-| offset | [uint64](#uint64) |  |  |
-| limit | [uint64](#uint64) |  |  |
+| ID | [uint64](#uint64) |  | ID of task group |
+| name | [string](#string) |  | Name of task group. It is fuzzy matching. |
+| description | [string](#string) |  | Description of task group. It is fuzzy matching. |
+| creator | [string](#string) |  | Creator of task group |
+| create_time | [TimePair](#tusimple.octodrill.TimePair) |  | Create time of task group |
+| last_run_time | [TimePair](#tusimple.octodrill.TimePair) |  | Last run time of task group |
+| offset | [uint64](#uint64) |  | Offset of task group |
+| limit | [uint64](#uint64) |  | Limit on the number of tasks returned |
+| include_favoritor | [string](#string) | repeated | Group loved by Users |
+| desc | [bool](#bool) |  | When desc is true, the task groups will be returned according to the created_time in descending order. |
+| ignore_detail | [bool](#bool) |  | When ignore_detail is true, each returned task group will ignore the fields that will only be displayed on the single task group detail page. |
+| exclude_favoritor | [string](#string) | repeated | Group disloved by Users |
 
 
 
@@ -925,6 +1020,7 @@
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | task_groups | [TaskGroup](#tusimple.octodrill.TaskGroup) | repeated |  |
+| total | [uint64](#uint64) |  |  |
 
 
 
@@ -944,7 +1040,7 @@
 | type | [string](#string) |  |  |
 | status | [string](#string) |  |  |
 | image | [string](#string) |  |  |
-| owner_id | [string](#string) |  |  |
+| creator | [string](#string) |  |  |
 | create_time | [TimePair](#tusimple.octodrill.TimePair) |  |  |
 | task_group_id | [uint64](#uint64) |  |  |
 | offset | [uint64](#uint64) |  |  |
@@ -1092,6 +1188,36 @@
 
 
 
+<a name="tusimple.octodrill.FirstTaskGroupRequest"></a>
+
+### FirstTaskGroupRequest
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| id | [uint64](#uint64) |  |  |
+
+
+
+
+
+
+<a name="tusimple.octodrill.FirstTaskGroupResponse"></a>
+
+### FirstTaskGroupResponse
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| task_group | [TaskGroup](#tusimple.octodrill.TaskGroup) |  |  |
+
+
+
+
+
+
 <a name="tusimple.octodrill.FirstTaskRequest"></a>
 
 ### FirstTaskRequest
@@ -1162,6 +1288,7 @@
 | ----- | ---- | ----- | ----------- |
 | task_id | [uint64](#uint64) |  |  |
 | instance_id | [uint64](#uint64) |  |  |
+| perception_mode | [string](#string) |  |  |
 
 
 
@@ -1187,7 +1314,8 @@
 <a name="tusimple.octodrill.GetScenarioVersionTagIntersectionRequest"></a>
 
 ### GetScenarioVersionTagIntersectionRequest
-
+#### Note
+1. If there is no intersection, return empty array;
 
 
 | Field | Type | Label | Description |
@@ -1217,7 +1345,8 @@
 <a name="tusimple.octodrill.GetScenarioVersionTicketIntersectionRequest"></a>
 
 ### GetScenarioVersionTicketIntersectionRequest
-
+#### Note
+1. If there is no intersection, return empty array;
 
 
 | Field | Type | Label | Description |
@@ -1238,6 +1367,55 @@
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | tickets | [string](#string) | repeated |  |
+
+
+
+
+
+
+<a name="tusimple.octodrill.GetTaskGroupsUsedByTaskGroupListPageRequest"></a>
+
+### GetTaskGroupsUsedByTaskGroupListPageRequest
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| search_condition | [FindTaskGroupRequest](#tusimple.octodrill.FindTaskGroupRequest) |  |  |
+| favorite_id | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="tusimple.octodrill.GetTaskGroupsUsedByTaskGroupListPageResponse"></a>
+
+### GetTaskGroupsUsedByTaskGroupListPageResponse
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| task_groups | [TaskGroup](#tusimple.octodrill.TaskGroup) | repeated |  |
+
+
+
+
+
+
+<a name="tusimple.octodrill.MapInfo"></a>
+
+### MapInfo
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| map_group | [string](#string) |  |  |
+| map_feature | [string](#string) |  |  |
+| map_version | [string](#string) |  |  |
+| map_series | [string](#string) |  |  |
 
 
 
@@ -1314,49 +1492,71 @@
 
 
 
-<a name="tusimple.octodrill.MoveScenarioVersionToRecycleBinRequest"></a>
+<a name="tusimple.octodrill.MoveScenarioToRecycleBinRequest"></a>
 
-### MoveScenarioVersionToRecycleBinRequest
-
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| scenario_id | [uint64](#uint64) |  |  |
-
-
-
-
-
-
-<a name="tusimple.octodrill.MoveScenarioVersionToRecycleBinResponse"></a>
-
-### MoveScenarioVersionToRecycleBinResponse
-
-
-
-
-
-
-
-<a name="tusimple.octodrill.RecoverScenarioVersionRequest"></a>
-
-### RecoverScenarioVersionRequest
-
+### MoveScenarioToRecycleBinRequest
+#### Note
+1. It will return the error InvalidArgument if request.scenario_id is zero;
 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | scenario_id | [uint64](#uint64) |  |  |
+| operator_id | [string](#string) |  |  |
 
 
 
 
 
 
-<a name="tusimple.octodrill.RecoverScenarioVersionResponse"></a>
+<a name="tusimple.octodrill.MoveScenarioToRecycleBinResponse"></a>
 
-### RecoverScenarioVersionResponse
+### MoveScenarioToRecycleBinResponse
+
+
+
+
+
+
+
+<a name="tusimple.octodrill.OperationRecord"></a>
+
+### OperationRecord
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| created_time | [int64](#int64) |  |  |
+| updated_time | [int64](#int64) |  |  |
+| operator_id | [string](#string) |  |  |
+| action | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="tusimple.octodrill.RecoverScenarioRequest"></a>
+
+### RecoverScenarioRequest
+#### Note
+1. It will return the error InvalidArgument if request.scenario_id is zero;
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| scenario_id | [uint64](#uint64) |  |  |
+| operator_id | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="tusimple.octodrill.RecoverScenarioResponse"></a>
+
+### RecoverScenarioResponse
 
 
 
@@ -1395,15 +1595,14 @@
 <a name="tusimple.octodrill.Scenario"></a>
 
 ### Scenario
-The scenario object will be created when save as new a case.
+The scenario object will be created when save as new a case.Pay attention to
+distinguish between ScenarioVersion and Scenario.
 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| ID | [uint64](#uint64) |  | ID of Scenario.
-
-* Creator of Scenario, it is the same as the creator of |
-| creator | [string](#string) |  | the oldest version. |
+| ID | [uint64](#uint64) |  | ID of Scenario. |
+| creator | [string](#string) |  | Creator of Scenario, it is the same as the creator of the oldest version. |
 | created_time | [int64](#int64) |  | Created time of Scenario, it is the same as the created_time of the oldest version. |
 | updated_time | [int64](#int64) |  | TODO delete |
 
@@ -1448,6 +1647,8 @@ The result of scenarioVersion running in task.
 | is_report | [bool](#bool) |  | Does ScenarioVersion run to the end. |
 | task_group_name | [string](#string) |  | The name of the task group associated with the task. |
 | task_group_id | [uint64](#uint64) |  | The id of the task group associated with the task. |
+| created_time | [uint64](#uint64) |  |  |
+| updated_time | [uint64](#uint64) |  |  |
 
 
 
@@ -1458,13 +1659,14 @@ The result of scenarioVersion running in task.
 
 ### ScenarioVersion
 The scenarioVersion is smallest unit of task running.
-It contains vehicles, map information, etc.
+It contains vehicles, map information, etc. Pay attention to distinguish
+between ScenarioVersion and Scenario.
 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | description | [string](#string) |  | Description of ScenarioVersion. |
-| meta_data | [string](#string) |  | Data of ScenarioVersion. repeated Entity entities = 3; repeated Metric metrics = 4; |
+| meta_data | [string](#string) |  | Data of ScenarioVersion. |
 | tags | [uint64](#uint64) | repeated | Tag ID list of ScenarioVerison. |
 | group | [string](#string) |  | Group of ScenarioVersion. |
 | stage | [string](#string) |  | Stage of ScenarioVersion |
@@ -1476,6 +1678,7 @@ It contains vehicles, map information, etc.
 | creator | [string](#string) |  | Creator of ScenarioVersion. |
 | created_time | [int64](#int64) |  | Created time of ScenarioVersion. |
 | scenario | [Scenario](#tusimple.octodrill.Scenario) |  | Which scenario does the version belong to. |
+| operation_records | [OperationRecord](#tusimple.octodrill.OperationRecord) | repeated | Operation record |
 
 
 
@@ -1537,7 +1740,7 @@ ScenarioVersion label.
 | description | [string](#string) |  | Description of tag. |
 | deleted | [bool](#bool) |  | Used to mark whether the tag has been deleted |
 | creator | [string](#string) |  | Creator of tag. |
-| not_tag | [bool](#bool) |  | Whether the tag can be assign to a scenario. |
+| not_tag | [bool](#bool) |  | Whether the tag can be assign to a scenario. If not_tag is false, this tag is a node in tag tree and can not be assign to a scenario. |
 
 
 
@@ -1584,19 +1787,20 @@ Task is the smallest unit for running tasks.
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| ID | [uint64](#uint64) |  | ID of Task. |
-| name | [string](#string) |  | Name of Task. |
-| task_group_id | [uint64](#uint64) |  | The group the task belongs to. |
+| ID | [uint64](#uint64) |  | ID of task. |
+| name | [string](#string) |  | Name of task. |
+| status | [string](#string) |  | Status of task; |
+| fail_rate | [float](#float) |  | Fail rate of task. |
 | image | [string](#string) |  | Docker image of the task. |
-| owner_id | [string](#string) |  | Creator of the task. |
+| created_time | [int64](#int64) |  | Created time of task. |
+| updated_time | [int64](#int64) |  | Updated time of task. |
+| creator | [string](#string) |  | Creator of the task. |
+| task_group_id | [uint64](#uint64) |  | The group the task belongs to. |
 | scenario_template_ids | [uint64](#uint64) | repeated | ScenarioVersion id list of the task. |
 | priority | [int64](#int64) |  | Priority of the task. |
 | meta_data | [string](#string) |  | It is optional parameters of task. |
 | type | [string](#string) |  | Type of Task such as Planning, Integration. |
-| fail_rate | [float](#float) |  | Fail rate of task. |
-| task_group | [TaskGroup](#tusimple.octodrill.TaskGroup) |  | TODO delete |
-| created_time | [int64](#int64) |  | Created time of task. |
-| updated_time | [int64](#int64) |  | Updated time of task. |
+| perception_mode | [string](#string) |  | Perception mode of task. |
 
 
 
@@ -1612,14 +1816,26 @@ task group is a collection of tasks.
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | ID | [uint64](#uint64) |  | ID of task group. |
-| name | [string](#string) |  | Name of task group. |
+| name | [string](#string) |  | Name of task group.
+
+required |
 | description | [string](#string) |  | Description of task group. |
-| image | [string](#string) |  | Base image of task group. It is also the default image of task. |
+| creator | [string](#string) |  | Creator of task group. |
+| frequency | [uint64](#uint64) |  | Frequency of task group. |
+| last_fail_rate | [double](#double) |  | Last fail rate of task. |
+| created_time | [int64](#int64) |  | Created time of task group. |
+| updated_time | [int64](#int64) |  | Updated time of task group. |
+| image | [DockerImage](#tusimple.octodrill.DockerImage) |  | Docker image of task group. It is also the default docker image of task. |
 | scenarios | [uint64](#uint64) | repeated | Base scenarios of task group. It is also the default scenarios of task. |
-| base_taskID | [uint64](#uint64) |  | The default base task when comparing tasks in the task group. |
-| priority | [uint64](#uint64) |  | Priority of task group.It is also the default priority of task. |
-| meta_data | [string](#string) |  | It is optional parameters of task group. It is also the default optional parameters of task. |
-| owner_id | [string](#string) |  | Creator of task group. |
+| base_task_id | [uint64](#uint64) |  | The default base task when comparing tasks in the task group. |
+| priority | [uint64](#uint64) |  | Priority of task group. It is also the default priority of task. |
+| ego_setting | [string](#string) |  | Ego setting of task group. |
+| scenario_condition | [FindScenarioVersionsRequest](#tusimple.octodrill.FindScenarioVersionsRequest) |  | Search condition for Scenarioversion. It is also the default scenario_condition of task. |
+| base_task_group_id | [uint64](#uint64) |  | Use its latest task that has finished running as the Base Task. |
+| map_info | [MapInfo](#tusimple.octodrill.MapInfo) | repeated | Map info of task group |
+| packages | [string](#string) | repeated | Specified package list of task group |
+| perception_mode | [PerceptionMode](#tusimple.octodrill.PerceptionMode) |  | Perception mode of task group. |
+| homer_mode | [HomerMode](#tusimple.octodrill.HomerMode) |  | Homer mode if task group. |
 
 
 
@@ -1727,15 +1943,47 @@ Time pair containing start and end time.
 
 
 
-<a name="tusimple.octodrill.UpdateTagRequest"></a>
+<a name="tusimple.octodrill.UpdateScenarioVersionsRequest"></a>
 
-### UpdateTagRequest
+### UpdateScenarioVersionsRequest
 
 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| tag | [Tag](#tusimple.octodrill.Tag) |  | Note: If the tag.id is empty, codes.InvalidArgument will be returned. If the tag.name already exists, codes.AlreadyExists will be returned. |
+| ids | [uint64](#uint64) | repeated |  |
+| added_tags | [uint64](#uint64) | repeated |  |
+| deleted_tags | [uint64](#uint64) | repeated |  |
+| stage | [string](#string) |  |  |
+| added_tickets | [string](#string) | repeated |  |
+| deleted_tickets | [string](#string) | repeated |  |
+
+
+
+
+
+
+<a name="tusimple.octodrill.UpdateScenarioVersionsResponse"></a>
+
+### UpdateScenarioVersionsResponse
+
+
+
+
+
+
+
+<a name="tusimple.octodrill.UpdateTagRequest"></a>
+
+### UpdateTagRequest
+#### Note
+1. If request.tag.ID is empty, error InvalidArgument will be returned;
+2. If request.tag.Name is exists, error InvalidArgument will be returned;
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| tag | [Tag](#tusimple.octodrill.Tag) |  |  |
 
 
 
@@ -1760,7 +2008,12 @@ Time pair containing start and end time.
 <a name="tusimple.octodrill.UpdateTaskGroupRequest"></a>
 
 ### UpdateTaskGroupRequest
-
+#### Note
+1. The ID, frequency, last_fail_rate, created_time in the request.task_group
+will be ignored;
+2. If request.task_group.editor not exists, generate a new User;
+3. It will only update non-zero fields except scenarios and
+scenario_condition;
 
 
 | Field | Type | Label | Description |
@@ -1780,7 +2033,7 @@ Time pair containing start and end time.
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| task_group | [TaskGroup](#tusimple.octodrill.TaskGroup) |  |  |
+| id | [uint64](#uint64) |  |  |
 
 
 
@@ -1856,66 +2109,52 @@ Time pair containing start and end time.
 
 
 
- 
-
- 
-
- 
+ <!-- end messages -->
 
 
-<a name="tusimple.octodrill.Simcraft"></a>
+<a name="tusimple.octodrill.DockerImage.ImageType"></a>
 
-### Simcraft
+### DockerImage.ImageType
 
 
-| Method Name | Request Type | Response Type | Description |
-| ----------- | ------------ | ------------- | ------------|
-| CreateScenarioVersion | [CreateScenarioVersionRequest](#tusimple.octodrill.CreateScenarioVersionRequest) | [CreateScenarioVersionResponse](#tusimple.octodrill.CreateScenarioVersionResponse) |  |
-| FirstScenarioVersion | [FirstScenarioVersionRequest](#tusimple.octodrill.FirstScenarioVersionRequest) | [FirstScenarioVersionResponse](#tusimple.octodrill.FirstScenarioVersionResponse) | Used to query ScenarioVersion, the relationship between different query conditions is &#34;and&#34;. If there is no qualified version, return error. |
-| FindScenarioVersions | [FindScenarioVersionsRequest](#tusimple.octodrill.FindScenarioVersionsRequest) | [FindScenarioVersionsResponse](#tusimple.octodrill.FindScenarioVersionsResponse) | Used to query ScenarioVersion, the relationship between different query conditions is &#34;and&#34;. Unless otherwise specified, it is an exact search. If there is no qualified ScenarioVersion, return empty. |
-| FindScenarioVersionFields | [FindScenarioVersionFieldsRequest](#tusimple.octodrill.FindScenarioVersionFieldsRequest) | [FindScenarioVersionFieldsResponse](#tusimple.octodrill.FindScenarioVersionFieldsResponse) | Fuzzy search for scenario_id, scenario_version_id, description in ScenarioVersions |
-| GetScenarioVersionTagIntersection | [GetScenarioVersionTagIntersectionRequest](#tusimple.octodrill.GetScenarioVersionTagIntersectionRequest) | [GetScenarioVersionTagIntersectionResponse](#tusimple.octodrill.GetScenarioVersionTagIntersectionResponse) | Get the intersection of tags in ScenarioVersions. |
-| GetScenarioVersionTicketIntersection | [GetScenarioVersionTicketIntersectionRequest](#tusimple.octodrill.GetScenarioVersionTicketIntersectionRequest) | [GetScenarioVersionTicketIntersectionResponse](#tusimple.octodrill.GetScenarioVersionTicketIntersectionResponse) |  |
-| CreateScenario | [CreateScenarioRequest](#tusimple.octodrill.CreateScenarioRequest) | [CreateScenarioResponse](#tusimple.octodrill.CreateScenarioResponse) |  |
-| UpdateScenario | [UpdateScenarioRequest](#tusimple.octodrill.UpdateScenarioRequest) | [UpdateScenarioResponse](#tusimple.octodrill.UpdateScenarioResponse) |  |
-| FirstScenario | [FirstScenarioRequest](#tusimple.octodrill.FirstScenarioRequest) | [FirstScenarioResponse](#tusimple.octodrill.FirstScenarioResponse) |  |
-| FindScenarios | [FindScenariosRequest](#tusimple.octodrill.FindScenariosRequest) | [FindScenariosResponse](#tusimple.octodrill.FindScenariosResponse) |  |
-| MoveScenarioVersionToRecycleBin | [MoveScenarioVersionToRecycleBinRequest](#tusimple.octodrill.MoveScenarioVersionToRecycleBinRequest) | [MoveScenarioVersionToRecycleBinResponse](#tusimple.octodrill.MoveScenarioVersionToRecycleBinResponse) |  |
-| RecoverScenarioVersion | [RecoverScenarioVersionRequest](#tusimple.octodrill.RecoverScenarioVersionRequest) | [RecoverScenarioVersionResponse](#tusimple.octodrill.RecoverScenarioVersionResponse) |  |
-| FindScenarioResult | [FindScenarioResultRequest](#tusimple.octodrill.FindScenarioResultRequest) | [FindScenarioResultResponse](#tusimple.octodrill.FindScenarioResultResponse) | Used to query ScenarioResult, the relationship between different query conditions is &#34;and&#34;. Unless otherwise specified, it is an exact search. |
-| CreateMetricTemplate | [CreateMetricTemplateRequest](#tusimple.octodrill.CreateMetricTemplateRequest) | [CreateMetricTemplateResponse](#tusimple.octodrill.CreateMetricTemplateResponse) |  |
-| UpdateMetricTemplate | [UpdateMetricTemplateRequest](#tusimple.octodrill.UpdateMetricTemplateRequest) | [UpdateMetricTemplateResponse](#tusimple.octodrill.UpdateMetricTemplateResponse) |  |
-| DeleteMetricTemplate | [DeleteMetricTemplateRequest](#tusimple.octodrill.DeleteMetricTemplateRequest) | [DeleteMetricTemplateResponse](#tusimple.octodrill.DeleteMetricTemplateResponse) |  |
-| FindMetricTemplates | [FindMetricTemplatesRequest](#tusimple.octodrill.FindMetricTemplatesRequest) | [FindMetricTemplatesResponse](#tusimple.octodrill.FindMetricTemplatesResponse) |  |
-| CreateEntityTemplate | [CreateEntityTemplateRequest](#tusimple.octodrill.CreateEntityTemplateRequest) | [CreateEntityTemplateResponse](#tusimple.octodrill.CreateEntityTemplateResponse) |  |
-| UpdateEntityTemplate | [UpdateEntityTemplateRequest](#tusimple.octodrill.UpdateEntityTemplateRequest) | [UpdateEntityTemplateResponse](#tusimple.octodrill.UpdateEntityTemplateResponse) |  |
-| DeleteEntityTemplate | [DeleteEntityTemplateRequest](#tusimple.octodrill.DeleteEntityTemplateRequest) | [DeleteEntityTemplateResponse](#tusimple.octodrill.DeleteEntityTemplateResponse) |  |
-| FindEntityTemplates | [FindEntityTemplatesRequest](#tusimple.octodrill.FindEntityTemplatesRequest) | [FindEntityTemplatesResponse](#tusimple.octodrill.FindEntityTemplatesResponse) |  |
-| CreateTag | [CreateTagRequest](#tusimple.octodrill.CreateTagRequest) | [CreateTagResponse](#tusimple.octodrill.CreateTagResponse) |  |
-| UpdateTag | [UpdateTagRequest](#tusimple.octodrill.UpdateTagRequest) | [UpdateTagResponse](#tusimple.octodrill.UpdateTagResponse) |  |
-| FindTags | [FindTagsRequest](#tusimple.octodrill.FindTagsRequest) | [FindTagsResponse](#tusimple.octodrill.FindTagsResponse) |  |
-| FindTagTree | [FindTagTreeRequest](#tusimple.octodrill.FindTagTreeRequest) | [FindTagTreeResponse](#tusimple.octodrill.FindTagTreeResponse) |  |
-| FindFlattenTagTree | [FindFlattenTagTreeRequest](#tusimple.octodrill.FindFlattenTagTreeRequest) | [FindFlattenTagTreeResponse](#tusimple.octodrill.FindFlattenTagTreeResponse) |  |
-| CreateTaskGroup | [CreateTaskGroupRequest](#tusimple.octodrill.CreateTaskGroupRequest) | [CreateTaskGroupResponse](#tusimple.octodrill.CreateTaskGroupResponse) |  |
-| UpdateTaskGroup | [UpdateTaskGroupRequest](#tusimple.octodrill.UpdateTaskGroupRequest) | [UpdateTaskGroupResponse](#tusimple.octodrill.UpdateTaskGroupResponse) |  |
-| FindTaskGroup | [FindTaskGroupRequest](#tusimple.octodrill.FindTaskGroupRequest) | [FindTaskGroupResponse](#tusimple.octodrill.FindTaskGroupResponse) |  |
-| DeleteTaskGroup | [DeleteTaskGroupRequest](#tusimple.octodrill.DeleteTaskGroupRequest) | [DeleteTaskGroupResponse](#tusimple.octodrill.DeleteTaskGroupResponse) |  |
-| CreateTask | [CreateTaskRequest](#tusimple.octodrill.CreateTaskRequest) | [CreateTaskResponse](#tusimple.octodrill.CreateTaskResponse) |  |
-| UpdateTask | [UpdateTaskRequest](#tusimple.octodrill.UpdateTaskRequest) | [UpdateTaskResponse](#tusimple.octodrill.UpdateTaskResponse) |  |
-| DeleteTask | [DeleteTaskRequest](#tusimple.octodrill.DeleteTaskRequest) | [DeleteTaskResponse](#tusimple.octodrill.DeleteTaskResponse) |  |
-| FirstTask | [FirstTaskRequest](#tusimple.octodrill.FirstTaskRequest) | [FirstTaskResponse](#tusimple.octodrill.FirstTaskResponse) |  |
-| FindTask | [FindTaskRequest](#tusimple.octodrill.FindTaskRequest) | [FindTaskResponse](#tusimple.octodrill.FindTaskResponse) |  |
-| GetInstanceCase | [GetInstanceCaseRequest](#tusimple.octodrill.GetInstanceCaseRequest) | [GetInstanceCaseResponse](#tusimple.octodrill.GetInstanceCaseResponse) | rpc Create rpc Update rpc Delete |
-| ReportCaseResult | [ReportCaseResultRequest](#tusimple.octodrill.ReportCaseResultRequest) | [ReportCaseResultResponse](#tusimple.octodrill.ReportCaseResultResponse) |  |
-| FindStage | [FindStageRequest](#tusimple.octodrill.FindStageRequest) | [FindStageResponse](#tusimple.octodrill.FindStageResponse) |  |
-| CreateUser | [CreateUserRequest](#tusimple.octodrill.CreateUserRequest) | [CreateUserResponse](#tusimple.octodrill.CreateUserResponse) |  |
-| UpdateUser | [UpdateUserRequest](#tusimple.octodrill.UpdateUserRequest) | [UpdateUserResponse](#tusimple.octodrill.UpdateUserResponse) |  |
-| FirstUser | [FirstUserRequest](#tusimple.octodrill.FirstUserRequest) | [FirstUserResponse](#tusimple.octodrill.FirstUserResponse) |  |
-| FindUsers | [FindUsersRequest](#tusimple.octodrill.FindUsersRequest) | [FindUsersResponse](#tusimple.octodrill.FindUsersResponse) |  |
-| DeleteUser | [DeleteUserRequest](#tusimple.octodrill.DeleteUserRequest) | [DeleteUserResponse](#tusimple.octodrill.DeleteUserResponse) |  |
-| FindTickets | [FindTicketsRequest](#tusimple.octodrill.FindTicketsRequest) | [FindTicketsResponse](#tusimple.octodrill.FindTicketsResponse) |  |
+| Name | Number | Description |
+| ---- | ------ | ----------- |
+| UNKNOWN_IMAGE_TYPE | 0 |  |
+| ARTIFACTORY | 1 |  |
+| CUSTOM | 2 |  |
 
- 
+
+
+<a name="tusimple.octodrill.HomerMode"></a>
+
+### HomerMode
+
+
+| Name | Number | Description |
+| ---- | ------ | ----------- |
+| UNKNOWN_HOMER_MODE | 0 |  |
+| BASIC | 1 |  |
+| PREDICTION | 2 |  |
+
+
+
+<a name="tusimple.octodrill.PerceptionMode"></a>
+
+### PerceptionMode
+
+
+| Name | Number | Description |
+| ---- | ------ | ----------- |
+| UNKNOWN_PERCEPTION_MODE | 0 |  |
+| DEFAULT | 1 |  |
+| HOMER | 2 |  |
+| NOT_HOMER | 3 |  |
+
+
+ <!-- end enums -->
+
+ <!-- end HasExtensions -->
+
 
 
 
@@ -1938,4 +2177,3 @@ Time pair containing start and end time.
 | <a name="bool" /> bool |  | bool | boolean | boolean | bool | bool | boolean | TrueClass/FalseClass |
 | <a name="string" /> string | A string must always contain UTF-8 encoded or 7-bit ASCII text. | string | String | str/unicode | string | string | string | String (UTF-8) |
 | <a name="bytes" /> bytes | May contain any arbitrary sequence of bytes. | string | ByteString | str | []byte | ByteString | string | String (ASCII-8BIT) |
-
